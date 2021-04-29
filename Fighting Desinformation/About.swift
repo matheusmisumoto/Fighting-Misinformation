@@ -12,12 +12,37 @@ struct About: View {
     var body: some View {
         NavigationView {
             VStack (alignment: .leading) {
-                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae congue nulla. Cras velit sem, sodales vitae diam non, pulvinar congue neque. Nam ut risus nec purus vestibulum iaculis. Mauris a nisi et quam sodales venenatis. Donec ante justo, ullamcorper ut nunc non, mattis posuere mi. Pellentesque est ipsum, varius blandit tellus vel, aliquam aliquet ex. Aliquam varius viverra odio, nec lacinia mauris tristique vitae. Phasellus orci lacus, porttitor in ex sit amet, rhoncus vestibulum sem. Morbi molestie lectus quis aliquam placerat. Integer ac neque neque. Integer blandit lobortis metus, feugiat pellentesque enim tempus a. Nam egestas auctor lectus, ut sollicitudin felis finibus et.\n\nDonec ornare lorem libero, et cursus nibh vehicula quis. Sed eu arcu vitae felis vulputate commodo. Curabitur eu magna nulla. Nunc at congue nibh, vel tincidunt dolor. Proin a nibh nunc. Etiam auctor metus mollis laoreet pharetra. Nulla facilisi. Ut lorem turpis, semper id vulputate ac, imperdiet id ante. Nunc et dolor placerat, ullamcorper erat et, vulputate dolor. Aliquam vel consectetur lectus. Quisque leo nisl, hendrerit non porta a, iaculis id erat. Ut porttitor nibh elit, vitae fringilla ipsum commodo eu. Donec aliquam rutrum lacinia. Quisque tincidunt hendrerit risus, vitae semper velit fringilla eu. Donec tortor nisl, elementum vel libero ac, porttitor aliquet massa.")
+                Text("This is an experimental iOS app using SwiftUI.\n\nDeveloped by Matheus Misumoto, webdeveloper and journalist.")
                     .frame(maxWidth: .infinity,
-                           alignment: .leading)
-                    .padding()
+                           alignment: .topLeading)
+                Spacer()
+                Spacer()
+                Button(action: {
+                    UIApplication.shared.open(URL(string: "https://github.com/matheusmisumoto")!)
+                }) {
+                    Text("My GitHub").font(.body)
+                    
+                }
+                .frame(maxWidth: .infinity,
+                       alignment: .center)
+                .foregroundColor(.blue)
+                .padding()
+                .cornerRadius(16)
+                Button(action: {
+                    UIApplication.shared.open(URL(string: "https://matheusmisumoto.dev")!)
+                }) {
+                    Text("Visit my website").font(.body)
+                    
+                }
+                .frame(maxWidth: .infinity,
+                       alignment: .center)
+                .foregroundColor(.white)
+                .padding()
+                .background(Color.blue)
+                .cornerRadius(16)
             }
-            .navigationTitle(Text("Sources"))
+            .padding()
+            .navigationTitle(Text("About"))
         }
     }
 }

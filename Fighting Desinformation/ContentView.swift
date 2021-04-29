@@ -23,21 +23,6 @@ struct ContentView: View {
                             label: {
                                 Text("How do journalists work?")
                             })
-                        NavigationLink(
-                            destination: Journalism(),
-                            label: {
-                                Text("Evaluate the source")
-                            })
-                        NavigationLink(
-                            destination: Journalism(),
-                            label: {
-                                Text("Read the article")
-                            })
-                        NavigationLink(
-                            destination: Journalism(),
-                            label: {
-                                Text("Check other news outlets")
-                            })
                     }
                 }
                 .listStyle(GroupedListStyle())
