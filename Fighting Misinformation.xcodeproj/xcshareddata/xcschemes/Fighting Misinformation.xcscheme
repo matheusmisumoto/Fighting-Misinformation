@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2FEB04F7262E066600F3196D"
-               BuildableName = "Fighting Desinformation.app"
-               BlueprintName = "Fighting Desinformation"
-               ReferencedContainer = "container:Fighting Desinformation.xcodeproj">
+               BuildableName = "Fighting Misinformation.app"
+               BlueprintName = "Fighting Misinformation"
+               ReferencedContainer = "container:Fighting Misinformation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2FEB04F7262E066600F3196D"
-            BuildableName = "Fighting Desinformation.app"
-            BlueprintName = "Fighting Desinformation"
-            ReferencedContainer = "container:Fighting Desinformation.xcodeproj">
+            BuildableName = "Fighting Misinformation.app"
+            BlueprintName = "Fighting Misinformation"
+            ReferencedContainer = "container:Fighting Misinformation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2FEB04F7262E066600F3196D"
-            BuildableName = "Fighting Desinformation.app"
-            BlueprintName = "Fighting Desinformation"
-            ReferencedContainer = "container:Fighting Desinformation.xcodeproj">
+            BuildableName = "Fighting Misinformation.app"
+            BlueprintName = "Fighting Misinformation"
+            ReferencedContainer = "container:Fighting Misinformation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

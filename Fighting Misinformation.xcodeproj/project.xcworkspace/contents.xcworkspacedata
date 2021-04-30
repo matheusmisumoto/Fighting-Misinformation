@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/matheus/Documents/iOS/testing/Fighting Desinformation.xcodeproj">
+      location = "self:../Fighting Misinformation">
    </FileRef>
 </Workspace>
